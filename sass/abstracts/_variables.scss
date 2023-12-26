@@ -1,0 +1,18 @@
+:root {
+  --c-dark-gray: #837d88;
+  --c-light-gray: #fafafa;
+  --c-light-violet: #96a9c6;
+  --c-dark-violet: #2d2641;
+  --c-darker-violet: #2c2830;
+  --c-border-body: #c396c6;
+  --c-border-footer: #dadada;
+}
+
+$grid-breakpoints: (
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);

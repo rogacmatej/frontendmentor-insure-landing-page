@@ -1,0 +1,47 @@
+@use '../abstracts' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: var(--c-dark-gray);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'DM Serif Display', sans-serif;
+  color: var(--c-dark-violet);
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-size: 7.2rem;
+  line-height: 6.4rem;
+  letter-spacing: -0.1rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+  line-height: normal;
+  letter-spacing: -0.0389rem;
+}
+
+@include media-breakpoint-down(md) {
+  h1 {
+    font-size: 4.8rem;
+    line-height: 4.8rem; /* 100% */
+    letter-spacing: -0.0667rem;
+  }
+
+  h2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 4.8rem; /* 100% */
+    letter-spacing: -0.0667rem;
+  }
+}
